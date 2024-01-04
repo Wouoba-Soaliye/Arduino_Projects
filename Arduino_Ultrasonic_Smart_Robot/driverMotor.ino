@@ -34,11 +34,11 @@ void setup() {
 }
 
 void avancer(){
-  analogWrite(in1, 190);
-  analogWrite(in2, 190);
+  analogWrite(in1, HIGH);
+  analogWrite(in2, LOW);
 
-  analogWrite(in3, 90);
-  analogWrite(in4, 90);
+  analogWrite(in3, HIGH);
+  analogWrite(in4, LOW);
 }
 void reculer(){
   digitalWrite(in1, LOW);
